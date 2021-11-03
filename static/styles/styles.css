@@ -129,7 +129,7 @@ i.far {
   justify-content: center;
   align-items: baseline;
   background: no-repeat center bottom/100vw 15vh
-    url("/static/imgs/footer_bg.png");
+    url("./static/imgs/footer_bg.png");
   bottom: 0;
   height: 50%;
   width: 100%;
@@ -163,6 +163,6 @@ i.far {
   }
   .footer_bg {
     background: no-repeat center bottom/110vw 15vh
-      url("/static/imgs/footer_bg.png");
+      url("./static/imgs/footer_bg.png");
   }
 }
