@@ -26,13 +26,17 @@ body {
   margin: 10px 100px;
 }
 
+.login_section {
+  margin-top: 30px;
+}
+
 fieldset {
   border: 1px solid black;
   border-radius: 20px;
 }
 
 legend {
-  width: 12%;
+  width: 20%;
   margin-left: 5%;
   padding-left: 2%;
   border: none;
@@ -96,6 +100,10 @@ p.user_cred {
   background-color: #008080;
   color: #fff;
 }
+
+.register_section {
+  margin-top: 70px;
+}
 .register_content {
   width: 90%;
   margin-bottom: 15px;
@@ -129,7 +137,7 @@ i.far {
   justify-content: center;
   align-items: baseline;
   background: no-repeat center bottom/100vw 15vh
-    url("./static/imgs/footer_bg.png");
+    url("/static/imgs/footer_bg.png");
   bottom: 0;
   height: 50%;
   width: 100%;
@@ -143,11 +151,14 @@ i.far {
   .log_in {
     margin: 0 auto;
   }
+  .login_section {
+    margin-top: 10px;
+  }
   .carousel-inner {
     overflow-x: clip;
   }
   legend {
-    width: 25%;
+    width: 30%;
   }
   .carousel-caption {
     display: block !important;
@@ -161,8 +172,17 @@ i.far {
   .carousel-indicators {
     display: none;
   }
+  .user_div,
+  .btn_div {
+    display: flex;
+    justify-content: center;
+  }
+  .register_title,
+  .register_text {
+    text-align: center;
+  }
   .footer_bg {
     background: no-repeat center bottom/110vw 15vh
-      url("./static/imgs/footer_bg.png");
+      url("/static/imgs/footer_bg.png");
   }
 }
